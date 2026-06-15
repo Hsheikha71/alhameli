@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>صدقة جارية عن روح المرحوم حمد الهاملي</title>
+<title>صدقة جارية عن روح الوالد حمد الهاملي</title>
 <style>
 body {
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -47,13 +47,14 @@ line-height: 1.7;
 margin-bottom: 25px;
 }
 
-/* Mosque Image Styling */
-.mosque-image {
+/* Mosque Graphic Styling */
+.mosque-image-container {
 width: 100%;
-max-height: 300px;
+max-width: 400px;
+margin: 0 auto 25px auto;
+background-color: #eef2f5;
 border-radius: 8px;
-margin-bottom: 25px;
-object-fit: cover;
+padding: 10px;
 border: 1px solid #e2e8f0;
 }
 
@@ -84,12 +85,10 @@ border-radius: 11px;
 overflow: hidden;
 }
 .bar-fill {
-/* 6,000 out of 40,000 calculated as (6000/40000)*100 = 15% */
 width: 15%;
 background-color: #319795;
 height: 100%;
 border-radius: 11px 0 0 11px;
-transition: width 1s ease-in-out;
 }
 .progress-text {
 text-align: center;
@@ -133,7 +132,7 @@ border-top: 1px solid #e2e8f0;
 
 <header>
 <h1>صدقة جارية</h1>
-<p>عن روح المرحوم بإذن الله: حمد الهاملي</p>
+<p>عن روح المرحوم بإذن الله: الوالد حمد الهاملي</p>
 </header>
 
 <div class="container">
@@ -143,8 +142,27 @@ border-top: 1px solid #e2e8f0;
 نستهدف معكم المساهمة في بناء بيت من بيوت الله ليثمر له ثواباً مستمراً ونوراً في قبره بإذن الله.
 </p>
 
-<img class="mosque-image" src="https://images.unsplash.com/photo-1590075865003-e48277afd558?q=80&w=600" alt="صورة المسجد">
+<!-- Embedded Mosque Photo/Graphic -->
+<div class="mosque-image-container">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%">
+<rect width="100%" height="100%" fill="#eef2f5"/>
+<circle cx="400" cy="400" r="350" fill="#e2e8f0" opacity="0.5"/>
+<rect x="250" y="220" width="300" height="130" fill="#1c3d5a" rx="5"/>
+<rect x="270" y="200" width="260" height="20" fill="#2c5282" rx="3"/>
+<path d="M 320 200 C 320 100, 480 100, 480 200 Z" fill="#cca43b"/>
+<line x1="400" y1="110" x2="400" y2="70" stroke="#cca43b" stroke-width="4"/>
+<circle cx="400" cy="65" r="6" fill="#cca43b"/>
+<rect x="200" y="120" width="30" height="230" fill="#1c3d5a"/>
+<rect x="195" y="110" width="40" height="15" fill="#2c5282"/>
+<path d="M 200 110 L 215 70 L 230 110 Z" fill="#cca43b"/>
+<rect x="570" y="120" width="30" height="230" fill="#1c3d5a"/>
+<rect x="565" y="110" width="40" height="15" fill="#2c5282"/>
+<path d="M 570 110 L 585 70 L 600 110 Z" fill="#cca43b"/>
+<path d="M 370 350 L 370 290 C 370 270, 430 270, 430 290 L 430 350 Z" fill="#cca43b"/>
+</svg>
+</div>
 
+<!-- Donation Progress Section -->
 <div class="progress-container">
 <div class="progress-labels">
 <div>المبلغ المجموع: 6,000 د.إ</div>
@@ -158,13 +176,15 @@ border-top: 1px solid #e2e8f0;
 </div>
 </div>
 
-<a href="#" class="donate-btn" target="_blank">التبرع عبر Apple Pay</a>
+<!-- REMEMBER: Replace 'YOUR_ACTUAL_CHARITY_LINK_HERE' with your real secure payment link -->
+<a href="YOUR_ACTUAL_CHARITY_LINK_HERE" class="donate-btn" target="_blank">التبرع عبر Apple Pay</a>
 </div>
 
 <footer>
-<p>جزاكم الله خيراً وجعلها الله في ميزان حسناتكم وحسنات فقيدنا</p>
+<p>جزاكم الله خيراً وجعلها الله في ميزان حسناتكم وحسنات فقيدنا الوالد حمد الهاملي</p>
 </footer>
 
 </body>
 </html>
+
 
